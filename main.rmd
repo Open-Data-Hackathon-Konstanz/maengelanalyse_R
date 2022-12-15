@@ -5,7 +5,11 @@ output: html_document
 
 ```{r}
 library(tidyverse)
+library(readr)
 ```
 ```{r}
 df <- read_csv("data/data.csv")
+```
+```{r}
+df %>% glimpse()
 ```
