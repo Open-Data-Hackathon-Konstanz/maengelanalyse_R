@@ -1,0 +1,11 @@
+---
+title: "R Notebook"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+```{r}
+df <- read_csv("data/data.csv")
+```
